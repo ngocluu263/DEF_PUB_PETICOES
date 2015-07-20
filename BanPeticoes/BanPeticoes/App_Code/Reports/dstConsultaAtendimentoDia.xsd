@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dstConsultaAtendimentoDia" targetNamespace="http://tempuri.org/dstConsultaAtendimentoDia.xsd" xmlns:mstns="http://tempuri.org/dstConsultaAtendimentoDia.xsd" xmlns="http://tempuri.org/dstConsultaAtendimentoDia.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dstConsultaAtendimentoDia" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dstConsultaAtendimentoDia" msprop:Generator_UserDSName="dstConsultaAtendimentoDia">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ConsultaAtendimentoDia" msprop:Generator_TableClassName="ConsultaAtendimentoDiaDataTable" msprop:Generator_TableVarName="tableConsultaAtendimentoDia" msprop:Generator_TablePropName="ConsultaAtendimentoDia" msprop:Generator_RowDeletingName="ConsultaAtendimentoDiaRowDeleting" msprop:Generator_UserTableName="ConsultaAtendimentoDia" msprop:Generator_RowChangingName="ConsultaAtendimentoDiaRowChanging" msprop:Generator_RowEvHandlerName="ConsultaAtendimentoDiaRowChangeEventHandler" msprop:Generator_RowDeletedName="ConsultaAtendimentoDiaRowDeleted" msprop:Generator_RowEvArgName="ConsultaAtendimentoDiaRowChangeEvent" msprop:Generator_RowChangedName="ConsultaAtendimentoDiaRowChanged" msprop:Generator_RowClassName="ConsultaAtendimentoDiaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Pes_Nome" msprop:Generator_ColumnVarNameInTable="columnPes_Nome" msprop:Generator_ColumnPropNameInRow="Pes_Nome" msprop:Generator_ColumnPropNameInTable="Pes_NomeColumn" msprop:Generator_UserColumnName="Pes_Nome" type="xs:string" minOccurs="0" />
+              <xs:element name="QTD" msprop:Generator_ColumnVarNameInTable="columnQTD" msprop:Generator_ColumnPropNameInRow="QTD" msprop:Generator_ColumnPropNameInTable="QTDColumn" msprop:Generator_UserColumnName="QTD" type="xs:string" minOccurs="0" />
+              <xs:element name="ATENDIDOS" msprop:Generator_ColumnVarNameInTable="columnATENDIDOS" msprop:Generator_ColumnPropNameInRow="ATENDIDOS" msprop:Generator_ColumnPropNameInTable="ATENDIDOSColumn" msprop:Generator_UserColumnName="ATENDIDOS" type="xs:string" minOccurs="0" />
+              <xs:element name="FaltaAtender" msprop:Generator_ColumnVarNameInTable="columnFaltaAtender" msprop:Generator_ColumnPropNameInRow="FaltaAtender" msprop:Generator_ColumnPropNameInTable="FaltaAtenderColumn" msprop:Generator_UserColumnName="FaltaAtender" type="xs:string" minOccurs="0" />
+              <xs:element name="AREA" msprop:Generator_ColumnVarNameInTable="columnAREA" msprop:Generator_ColumnPropNameInRow="AREA" msprop:Generator_ColumnPropNameInTable="AREAColumn" msprop:Generator_UserColumnName="AREA" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

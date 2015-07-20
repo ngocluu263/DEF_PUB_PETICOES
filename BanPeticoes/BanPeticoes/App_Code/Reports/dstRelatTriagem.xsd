@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportsRelatTriagem" targetNamespace="http://tempuri.org/DSRel.xsd" xmlns:mstns="http://tempuri.org/DSRel.xsd" xmlns="http://tempuri.org/DSRel.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportsRelatTriagemRelatTriagem" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_UserDSName="ReportsRelatTriagem" msprop:Generator_DataSetName="ReportsRelatTriagem">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RelatTriagem" msprop:Generator_UserTableName="RelatTriagem" msprop:Generator_RowDeletedName="RelatTriagemRowDeleted" msprop:Generator_TableClassName="RelatTriagemDataTable" msprop:Generator_RowChangedName="RelatTriagemRowChanged" msprop:Generator_RowClassName="RelatTriagemRow" msprop:Generator_RowChangingName="RelatTriagemRowChanging" msprop:Generator_RowEvArgName="RelatTriagemRowChangeEvent" msprop:Generator_RowEvHandlerName="RelatTriagemRowChangeEventHandler" msprop:Generator_TablePropName="RelatTriagem" msprop:Generator_TableVarName="tableRelatTriagem" msprop:Generator_RowDeletingName="RelatTriagemRowDeleting">
+          <xs:complexType>
+            <xs:sequence>              
+              <xs:element name="ASTTRG_DESCRICAO" msprop:Generator_UserColumnName="ASTTRG_DESCRICAO" msprop:Generator_ColumnPropNameInRow="ASTTRG_DESCRICAO" msprop:Generator_ColumnVarNameInTable="columnASTTRG_DESCRICAO" msprop:Generator_ColumnPropNameInTable="ASTTRG_DESCRICAOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PRIORIDADE" msprop:Generator_UserColumnName="PRIORIDADE" msprop:Generator_ColumnPropNameInRow="PRIORIDADE" msprop:Generator_ColumnVarNameInTable="columnPRIORIDADE" msprop:Generator_ColumnPropNameInTable="PRIORIDADEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TRG_NOMEPESSOA" msprop:Generator_UserColumnName="TRG_NOMEPESSOA" msprop:Generator_ColumnPropNameInRow="TRG_NOMEPESSOA" msprop:Generator_ColumnVarNameInTable="columnTRG_NOMEPESSOA" msprop:Generator_ColumnPropNameInTable="TRG_NOMEPESSOAColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NUC_DESCRICAO" msprop:Generator_UserColumnName="NUC_DESCRICAO" msprop:Generator_ColumnPropNameInRow="NUC_DESCRICAO" msprop:Generator_ColumnVarNameInTable="columnNUC_DESCRICAO" msprop:Generator_ColumnPropNameInTable="NUC_DESCRICAOColumn" type="xs:string" minOccurs="0" />              
+              <xs:element name="TRG_REGDATE" msprop:Generator_UserColumnName="TRG_REGDATE" msprop:Generator_ColumnPropNameInRow="TRG_REGDATE" msprop:Generator_ColumnVarNameInTable="columnTRG_REGDATE" msprop:Generator_ColumnPropNameInTable="TRG_REGDATEColumn" type="xs:date" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

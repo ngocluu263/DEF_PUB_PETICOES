@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportsQuantidadeUsuario" targetNamespace="http://tempuri.org/DSRel.xsd" xmlns:mstns="http://tempuri.org/DSRel.xsd" xmlns="http://tempuri.org/DSRel.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportsQuantidadeUsuario" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_DataSetName="ReportsQuantidadeUsuario" msprop:Generator_UserDSName="ReportsQuantidadeUsuario">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="QuantidadeUsuario" msprop:Generator_TableClassName="QuantidadeUsuarioDataTable" msprop:Generator_RowEvArgName="QuantidadeUsuarioRowChangeEvent" msprop:Generator_TableVarName="tableQuantidadeUsuario" msprop:Generator_TablePropName="QuantidadeUsuario" msprop:Generator_RowDeletingName="QuantidadeUsuarioRowDeleting" msprop:Generator_UserTableName="QuantidadeUsuario" msprop:Generator_RowChangingName="QuantidadeUsuarioRowChanging" msprop:Generator_RowDeletedName="QuantidadeUsuarioRowDeleted" msprop:Generator_RowChangedName="QuantidadeUsuarioRowChanged" msprop:Generator_RowEvHandlerName="QuantidadeUsuarioRowChangeEventHandler" msprop:Generator_RowClassName="QuantidadeUsuarioRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REGUSER" msprop:Generator_ColumnVarNameInTable="columnREGUSER" msprop:Generator_ColumnPropNameInRow="REGUSER" msprop:Generator_ColumnPropNameInTable="REGUSERColumn" msprop:Generator_UserColumnName="REGUSER" type="xs:string" minOccurs="0" />
+              <xs:element name="QTD" msprop:Generator_ColumnVarNameInTable="columnQTD" msprop:Generator_ColumnPropNameInRow="QTD" msprop:Generator_ColumnPropNameInTable="QTDColumn" msprop:Generator_UserColumnName="QTD" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

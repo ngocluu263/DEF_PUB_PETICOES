@@ -1,0 +1,14 @@
+﻿#divProcessando 
+{
+    background: url("../images/GifsCarregando.gif") no-repeat scroll center center;
+    background-color:#000000;
+    filter:alpha(opacity=80);
+    -moz-opacity:.80;
+    opacity:.80;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}

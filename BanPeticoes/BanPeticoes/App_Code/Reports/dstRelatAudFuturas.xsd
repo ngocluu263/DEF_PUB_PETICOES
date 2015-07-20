@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportsRelatAudFuturas" targetNamespace="http://tempuri.org/DSRel.xsd" xmlns:mstns="http://tempuri.org/DSRel.xsd" xmlns="http://tempuri.org/DSRel.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportsRelatAudFuturasRelatAudFuturas" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_UserDSName="ReportsRelatAudFuturas" msprop:Generator_DataSetName="ReportsRelatAudFuturas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RelatAudFuturas" msprop:Generator_UserTableName="RelatAudFuturas" msprop:Generator_RowDeletedName="RelatAudFuturasRowDeleted" msprop:Generator_TableClassName="RelatAudFuturasDataTable" msprop:Generator_RowChangedName="RelatAudFuturasRowChanged" msprop:Generator_RowClassName="RelatAudFuturasRow" msprop:Generator_RowChangingName="RelatAudFuturasRowChanging" msprop:Generator_RowEvArgName="RelatAudFuturasRowChangeEvent" msprop:Generator_RowEvHandlerName="RelatAudFuturasRowChangeEventHandler" msprop:Generator_TablePropName="RelatAudFuturas" msprop:Generator_TableVarName="tableRelatAudFuturas" msprop:Generator_RowDeletingName="RelatAudFuturasRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DOC_NUMERO" msprop:Generator_UserColumnName="DOC_NUMERO" msprop:Generator_ColumnPropNameInRow="DOC_NUMERO" msprop:Generator_ColumnVarNameInTable="columnDOC_NUMERO" msprop:Generator_ColumnPropNameInTable="DOC_NUMEROColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AUDF_DATE" msprop:Generator_UserColumnName="AUDF_DATE" msprop:Generator_ColumnPropNameInRow="AUDF_DATE" msprop:Generator_ColumnVarNameInTable="columnAUDF_DATE" msprop:Generator_ColumnPropNameInTable="AUDF_DATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AUDF_HORA" msprop:Generator_UserColumnName="AUDF_HORA" msprop:Generator_ColumnPropNameInRow="AUDF_HORA" msprop:Generator_ColumnVarNameInTable="columnAUDF_HORA" msprop:Generator_ColumnPropNameInTable="AUDF_HORAColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AUDF_DESCRICAO" msprop:Generator_UserColumnName="AUDF_DESCRICAO" msprop:Generator_ColumnPropNameInRow="AUDF_DESCRICAO" msprop:Generator_ColumnVarNameInTable="columnAUDF_DESCRICAO" msprop:Generator_ColumnPropNameInTable="AUDF_DESCRICAOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PES_NOME" msprop:Generator_UserColumnName="PES_NOME" msprop:Generator_ColumnPropNameInRow="PES_NOME" msprop:Generator_ColumnVarNameInTable="columnPES_NOME" msprop:Generator_ColumnPropNameInTable="PES_NOMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ORIGEM_DESCRICAO" msprop:Generator_UserColumnName="ORIGEM_DESCRICAO" msprop:Generator_ColumnPropNameInRow="ORIGEM_DESCRICAO" msprop:Generator_ColumnVarNameInTable="columnORIGEM_DESCRICAO" msprop:Generator_ColumnPropNameInTable="ORIGEM_DESCRICAOColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

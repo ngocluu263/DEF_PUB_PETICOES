@@ -1,0 +1,13 @@
+D:\VssRoot\BanPeticoes\DataObjects.BanPeticoes\obj\Debug\APB.Mercury.DataObjects.BanPeticoes.csprojResolveAssemblyReference.cache
+D:\VssRoot\BanPeticoes\DataObjects.BanPeticoes\bin\Debug\APB.Mercury.DataObjects.SCPWeb.dll
+D:\VssRoot\BanPeticoes\DataObjects.BanPeticoes\bin\Debug\APB.Mercury.DataObjects.SCPWeb.pdb
+D:\VssRoot\BanPeticoes\DataObjects.BanPeticoes\bin\Debug\APB.Framework.DataBase.dll
+D:\VssRoot\BanPeticoes\DataObjects.BanPeticoes\bin\Debug\APB.Framework.Encryption.dll
+D:\VssRoot\BanPeticoes\DataObjects.BanPeticoes\bin\Debug\APB.Mercury.Exceptions.dll
+D:\VssRoot\BanPeticoes\DataObjects.BanPeticoes\bin\Debug\Oracle.DataAccess.dll
+D:\VssRoot\BanPeticoes\DataObjects.BanPeticoes\bin\Debug\WTEC.Exceptions.dll
+D:\VssRoot\BanPeticoes\DataObjects.BanPeticoes\bin\Debug\WTEC.Framework.DataBase.dll
+D:\VssRoot\BanPeticoes\DataObjects.BanPeticoes\bin\Debug\WTEC.Framework.Encryption.dll
+D:\VssRoot\BanPeticoes\DataObjects.BanPeticoes\bin\Debug\APB.Mercury.Exceptions.pdb
+D:\VssRoot\BanPeticoes\DataObjects.BanPeticoes\obj\Debug\APB.Mercury.DataObjects.SCPWeb.dll
+D:\VssRoot\BanPeticoes\DataObjects.BanPeticoes\obj\Debug\APB.Mercury.DataObjects.SCPWeb.pdb

@@ -1,0 +1,41 @@
+﻿
+.modal-body {
+  position: fixed;
+  top: 30%;
+  left: 26%;
+  padding: 20px;
+  width: 310px;
+  height: 16px;
+}
+.modal-dialog {
+  position: fixed;
+  z-index: 1050;
+  width: 310px;
+  top: 30%;
+  left: 40%;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.modal .modal-header {
+  border-bottom: none;
+  position: relative;
+}
+.modal .modal-header .btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.modal .modal-footer {
+  border-top: none;
+  padding: 0;
+}
+.modal .modal-footer .btn-group > .btn:first-child {
+  border-bottom-left-radius: 0;
+}
+.modal .modal-footer .btn-group > .btn:last-child {
+  border-top-right-radius: 0;
+}

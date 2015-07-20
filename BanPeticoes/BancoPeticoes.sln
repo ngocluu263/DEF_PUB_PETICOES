@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BanPeticoes", "BanPeticoes\", "{DE984555-5DEB-4EEE-B248-EFDD668E44A7}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{3393FC44-ADBF-406C-AF26-83B21EAD39F5}|APB.Mercury.DataObjects.SCPWeb.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/BanPeticoes"
+		Debug.AspNetCompiler.PhysicalPath = "BanPeticoes\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\BanPeticoes\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/BanPeticoes"
+		Release.AspNetCompiler.PhysicalPath = "BanPeticoes\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\BanPeticoes\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "15014"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APB.Mercury.DataObjects.BanPeticoes", "DataObjects.BanPeticoes\APB.Mercury.DataObjects.BanPeticoes.csproj", "{3393FC44-ADBF-406C-AF26-83B21EAD39F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE984555-5DEB-4EEE-B248-EFDD668E44A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE984555-5DEB-4EEE-B248-EFDD668E44A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE984555-5DEB-4EEE-B248-EFDD668E44A7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE984555-5DEB-4EEE-B248-EFDD668E44A7}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{3393FC44-ADBF-406C-AF26-83B21EAD39F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3393FC44-ADBF-406C-AF26-83B21EAD39F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3393FC44-ADBF-406C-AF26-83B21EAD39F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3393FC44-ADBF-406C-AF26-83B21EAD39F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

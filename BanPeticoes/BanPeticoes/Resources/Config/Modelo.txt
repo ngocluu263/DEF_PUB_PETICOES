@@ -1,0 +1,37 @@
+﻿<p align="center"><img width="78" height="94" src="../Dados de aplicativos/Adobe/Dreamweaver 9/OfficeImageTemp/clip_image002.jpg" /><span class="style1"> Defensoria Pública do Estado do Pará </span><span class="style1"><img width="95" height="94" src="../Dados de aplicativos/Adobe/Dreamweaver 9/OfficeImageTemp/clip_image004.jpg" /></span><br />
+    <strong>Trav. Padre Prudêncio, 154,  Comércio, Belém/PA, CEP 66.019-000</strong><br />
+    <strong> Telefone: (91) 3201-2700 – www.defensoria.pa.gov.br</strong></p>
+<p align="center">&nbsp;</p>
+<p align="center">Excelentíssimo Senhor Juiz de Direito da {0} da Comarca de {1}, do Estado do Pará.</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="left">Autor: {3}</p>
+<p align="left">Réu: {4}</p>
+<p align="left">Processo: {5}</p>
+<p align="center">&nbsp;</p>
+<p align="justify">	{6}, já devidamente identificado nos autos do(a) {7} em que litiga com {8}, <u>através da Defensoria  Pública do Estado do Pará</u>, por seu membro que ao fim assina, vem à  presença de Vossa Excelência expor e requerer o que segue:</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">Nestes termos, pede deferimento.</p>
+<p align="center">{9}, {10} de {11} de {12}.</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="right">{13}</p>
+<p align="right">Defensor Público do Estado do Pará</p>
+<p align="right">OAB/PA {14}</p>
+<div align="right"></div>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>

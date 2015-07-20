@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Reports" targetNamespace="http://tempuri.org/DSRel.xsd" xmlns:mstns="http://tempuri.org/DSRel.xsd" xmlns="http://tempuri.org/DSRel.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Reports" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_UserDSName="Reports" msprop:Generator_DataSetName="Reports">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Operators" msprop:Generator_UserTableName="Operators" msprop:Generator_RowDeletedName="OperatorsRowDeleted" msprop:Generator_TableClassName="OperatorsDataTable" msprop:Generator_RowChangedName="OperatorsRowChanged" msprop:Generator_RowClassName="OperatorsRow" msprop:Generator_RowChangingName="OperatorsRowChanging" msprop:Generator_RowEvArgName="OperatorsRowChangeEvent" msprop:Generator_RowEvHandlerName="OperatorsRowChangeEventHandler" msprop:Generator_TablePropName="Operators" msprop:Generator_TableVarName="tableOperators" msprop:Generator_RowDeletingName="OperatorsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PRS_ID" msprop:Generator_UserColumnName="PRS_ID" msprop:Generator_ColumnPropNameInRow="PRS_ID" msprop:Generator_ColumnVarNameInTable="columnPRS_ID" msprop:Generator_ColumnPropNameInTable="PRS_IDColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="USR_ID" msprop:Generator_UserColumnName="USR_ID" msprop:Generator_ColumnPropNameInRow="USR_ID" msprop:Generator_ColumnVarNameInTable="columnUSR_ID" msprop:Generator_ColumnPropNameInTable="USR_IDColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="USR_NAME" msprop:Generator_UserColumnName="USR_NAME" msprop:Generator_ColumnPropNameInRow="USR_NAME" msprop:Generator_ColumnVarNameInTable="columnUSR_NAME" msprop:Generator_ColumnPropNameInTable="USR_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PF_DESC" msprop:Generator_UserColumnName="PF_DESC" msprop:Generator_ColumnPropNameInRow="PF_DESC" msprop:Generator_ColumnVarNameInTable="columnPF_DESC" msprop:Generator_ColumnPropNameInTable="PF_DESCColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PRS_HRID" msprop:Generator_UserColumnName="PRS_HRID" msprop:Generator_ColumnPropNameInRow="PRS_HRID" msprop:Generator_ColumnVarNameInTable="columnPRS_HRID" msprop:Generator_ColumnPropNameInTable="PRS_HRIDColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ISS_ID" msprop:Generator_UserColumnName="ISS_ID" msprop:Generator_ColumnPropNameInRow="ISS_ID" msprop:Generator_ColumnVarNameInTable="columnISS_ID" msprop:Generator_ColumnPropNameInTable="ISS_IDColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CD_ID" msprop:Generator_UserColumnName="CD_ID" msprop:Generator_ColumnPropNameInRow="CD_ID" msprop:Generator_ColumnVarNameInTable="columnCD_ID" msprop:Generator_ColumnPropNameInTable="CD_IDColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CRD_SNR" msprop:Generator_UserColumnName="CRD_SNR" msprop:Generator_ColumnPropNameInRow="CRD_SNR" msprop:Generator_ColumnVarNameInTable="columnCRD_SNR" msprop:Generator_ColumnPropNameInTable="CRD_SNRColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CRD_CHKDG" msprop:Generator_UserColumnName="CRD_CHKDG" msprop:Generator_ColumnPropNameInRow="CRD_CHKDG" msprop:Generator_ColumnVarNameInTable="columnCRD_CHKDG" msprop:Generator_ColumnPropNameInTable="CRD_CHKDGColumn" type="xs:decimal" minOccurs="0" />              
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

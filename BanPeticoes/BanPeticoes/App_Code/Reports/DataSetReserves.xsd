@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Reports" targetNamespace="http://tempuri.org/DSRel.xsd" xmlns:mstns="http://tempuri.org/DSRel.xsd" xmlns="http://tempuri.org/DSRel.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportsReserves" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_UserDSName="ReportsReserves" msprop:Generator_DataSetName="ReportsReserves">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Reserves" msprop:Generator_UserTableName="Reserves" msprop:Generator_RowDeletedName="ReservesRowDeleted" msprop:Generator_TableClassName="ReservesDataTable" msprop:Generator_RowChangedName="ReservesRowChanged" msprop:Generator_RowClassName="ReservesRow" msprop:Generator_RowChangingName="ReservesRowChanging" msprop:Generator_RowEvArgName="ReservesRowChangeEvent" msprop:Generator_RowEvHandlerName="ReservesRowChangeEventHandler" msprop:Generator_TablePropName="Reserves" msprop:Generator_TableVarName="tableReserves" msprop:Generator_RowDeletingName="ReservesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PTC_ID" msprop:Generator_UserColumnName="PTC_ID" msprop:Generator_ColumnPropNameInRow="PTC_ID" msprop:Generator_ColumnVarNameInTable="columnPTC_ID" msprop:Generator_ColumnPropNameInTable="PTC_IDColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="USR_ID" msprop:Generator_UserColumnName="USR_ID" msprop:Generator_ColumnPropNameInRow="USR_ID" msprop:Generator_ColumnVarNameInTable="columnUSR_ID" msprop:Generator_ColumnPropNameInTable="USR_IDColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="USR_NAME" msprop:Generator_UserColumnName="USR_NAME" msprop:Generator_ColumnPropNameInRow="USR_NAME" msprop:Generator_ColumnVarNameInTable="columnUSR_NAME" msprop:Generator_ColumnPropNameInTable="USR_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PTC_ISS_ID_ORIG" msprop:Generator_UserColumnName="PTC_ISS_ID_ORIG" msprop:Generator_ColumnPropNameInRow="PTC_ISS_ID_ORIG" msprop:Generator_ColumnVarNameInTable="columnPTC_ISS_ID_ORIG" msprop:Generator_ColumnPropNameInTable="PTC_ISS_ID_ORIGColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PTC_CD_ID_ORIG" msprop:Generator_UserColumnName="PTC_CD_ID_ORIG" msprop:Generator_ColumnPropNameInRow="PTC_CD_ID_ORIG" msprop:Generator_ColumnVarNameInTable="columnPTC_CD_ID_ORIG" msprop:Generator_ColumnPropNameInTable="PTC_CD_ID_ORIGColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PTC_CRD_SNR_ORIG" msprop:Generator_UserColumnName="PTC_CRD_SNR_ORIG" msprop:Generator_ColumnPropNameInRow="PTC_CRD_SNR_ORIG" msprop:Generator_ColumnVarNameInTable="columnPTC_CRD_SNR_ORIG" msprop:Generator_ColumnPropNameInTable="PTC_CRD_SNR_ORIGColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CRD_CHKDG" msprop:Generator_UserColumnName="CRD_CHKDG" msprop:Generator_ColumnPropNameInRow="CRD_CHKDG" msprop:Generator_ColumnVarNameInTable="columnCRD_CHKDG" msprop:Generator_ColumnPropNameInTable="CRD_CHKDGColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PTC_PRS_HRID_ORIG" msprop:Generator_UserColumnName="PTC_PRS_HRID_ORIG" msprop:Generator_ColumnPropNameInRow="PTC_PRS_HRID_ORIG" msprop:Generator_ColumnVarNameInTable="columnPTC_PRS_HRID_ORIG" msprop:Generator_ColumnPropNameInTable="PTC_PRS_HRID_ORIGColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PTC_ISS_ID_TEMP" msprop:Generator_UserColumnName="PTC_ISS_ID_TEMP" msprop:Generator_ColumnPropNameInRow="PTC_ISS_ID_TEMP" msprop:Generator_ColumnVarNameInTable="columnPTC_ISS_ID_TEMP" msprop:Generator_ColumnPropNameInTable="PTC_ISS_ID_TEMPColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PTC_CD_ID_TEMP" msprop:Generator_UserColumnName="PTC_CD_ID_TEMP" msprop:Generator_ColumnPropNameInRow="PTC_CD_ID_TEMP" msprop:Generator_ColumnVarNameInTable="columnPTC_CD_ID_TEMP" msprop:Generator_ColumnPropNameInTable="PTC_CD_ID_TEMPColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PTC_CRD_SNR_TEMP" msprop:Generator_UserColumnName="PTC_CRD_SNR_TEMP" msprop:Generator_ColumnPropNameInRow="PTC_CRD_SNR_TEMP" msprop:Generator_ColumnVarNameInTable="columnPTC_CRD_SNR_TEMP" msprop:Generator_ColumnPropNameInTable="PTC_CRD_SNR_TEMPColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CRD_CHKDG_TEMP" msprop:Generator_UserColumnName="CRD_CHKDG_TEMP" msprop:Generator_ColumnPropNameInRow="CRD_CHKDG_TEMP" msprop:Generator_ColumnVarNameInTable="columnCRD_CHKDG_TEMP" msprop:Generator_ColumnPropNameInTable="CRD_CHKDG_TEMPColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PTC_STARTDATE" msprop:Generator_UserColumnName="PTC_STARTDATE" msprop:Generator_ColumnPropNameInRow="PTC_STARTDATE" msprop:Generator_ColumnVarNameInTable="columnPTC_STARTDATE" msprop:Generator_ColumnPropNameInTable="PTC_STARTDATEColumn" type="xs:date" minOccurs="0" />
+              <xs:element name="PTC_ENDDATE" msprop:Generator_UserColumnName="PTC_ENDDATE" msprop:Generator_ColumnPropNameInRow="PTC_ENDDATE" msprop:Generator_ColumnVarNameInTable="columnPTC_ENDDATE" msprop:Generator_ColumnPropNameInTable="PTC_ENDDATEColumn" type="xs:date" minOccurs="0" />
+              <xs:element name="PTC_STATUS" msprop:Generator_UserColumnName="PTC_STATUS" msprop:Generator_ColumnPropNameInRow="PTC_STATUS" msprop:Generator_ColumnVarNameInTable="columnPTC_STATUS" msprop:Generator_ColumnPropNameInTable="PTC_STATUSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PF_DESC" msprop:Generator_UserColumnName="PF_DESC" msprop:Generator_ColumnPropNameInRow="PF_DESC" msprop:Generator_ColumnVarNameInTable="columnPF_DESC" msprop:Generator_ColumnPropNameInTable="PF_DESCColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

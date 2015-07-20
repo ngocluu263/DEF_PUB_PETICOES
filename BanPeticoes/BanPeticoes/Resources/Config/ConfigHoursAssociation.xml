@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<CONFIG>
+  <SCRIPT>
+    <!--Configuração do tempo permitido para editar data fim do vínculo-->
+    <ID>5</ID>
+    <NAME>ConfigHoursAssociation</NAME>
+    <DATE>13/12/2008 14:00</DATE>
+  </SCRIPT>
+</CONFIG>

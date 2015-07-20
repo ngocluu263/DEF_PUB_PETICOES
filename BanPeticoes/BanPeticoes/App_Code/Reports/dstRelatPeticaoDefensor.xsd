@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportsRelatPeticaoDefensor" targetNamespace="http://tempuri.org/DSRel.xsd" xmlns:mstns="http://tempuri.org/DSRel.xsd" xmlns="http://tempuri.org/DSRel.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportsRelatPeticaoDefensorRelatPeticaoDefensor" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_UserDSName="ReportsRelatPeticaoDefensor" msprop:Generator_DataSetName="ReportsRelatPeticaoDefensor">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RelatPeticaoDefensor" msprop:Generator_UserTableName="RelatPeticaoDefensor" msprop:Generator_RowDeletedName="RelatPeticaoDefensorRowDeleted" msprop:Generator_TableClassName="RelatPeticaoDefensorDataTable" msprop:Generator_RowChangedName="RelatPeticaoDefensorRowChanged" msprop:Generator_RowClassName="RelatPeticaoDefensorRow" msprop:Generator_RowChangingName="RelatPeticaoDefensorRowChanging" msprop:Generator_RowEvArgName="RelatPeticaoDefensorRowChangeEvent" msprop:Generator_RowEvHandlerName="RelatPeticaoDefensorRowChangeEventHandler" msprop:Generator_TablePropName="RelatPeticaoDefensor" msprop:Generator_TableVarName="tableRelatPeticaoDefensor" msprop:Generator_RowDeletingName="RelatPeticaoDefensorRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DOC_NUMERO" msprop:Generator_UserColumnName="DOC_NUMERO" msprop:Generator_ColumnPropNameInRow="DOC_NUMERO" msprop:Generator_ColumnVarNameInTable="columnDOC_NUMERO" msprop:Generator_ColumnPropNameInTable="DOC_NUMEROColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PTC_NUMERO" msprop:Generator_UserColumnName="PTC_NUMERO" msprop:Generator_ColumnPropNameInRow="PTC_NUMERO" msprop:Generator_ColumnVarNameInTable="columnPTC_NUMERO" msprop:Generator_ColumnPropNameInTable="PTC_NUMEROColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TPPT_DESCRICAO" msprop:Generator_UserColumnName="TPPT_DESCRICAO" msprop:Generator_ColumnPropNameInRow="TPPT_DESCRICAO" msprop:Generator_ColumnVarNameInTable="columnTPPT_DESCRICAO" msprop:Generator_ColumnPropNameInTable="TPPT_DESCRICAOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="STPTC_DESCRICAO" msprop:Generator_UserColumnName="STPTC_DESCRICAO" msprop:Generator_ColumnPropNameInRow="STPTC_DESCRICAO" msprop:Generator_ColumnVarNameInTable="columnSTPTC_DESCRICAO" msprop:Generator_ColumnPropNameInTable="STPTC_DESCRICAOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PTC_PROTOCOLO" msprop:Generator_UserColumnName="PTC_PROTOCOLO" msprop:Generator_ColumnPropNameInRow="PTC_PROTOCOLO" msprop:Generator_ColumnVarNameInTable="columnPTC_PROTOCOLO" msprop:Generator_ColumnPropNameInTable="PTC_PROTOCOLOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PTC_REGUSER" msprop:Generator_UserColumnName="PTC_REGUSER" msprop:Generator_ColumnPropNameInRow="PTC_REGUSER" msprop:Generator_ColumnVarNameInTable="columnPTC_REGUSER" msprop:Generator_ColumnPropNameInTable="PTC_REGUSERColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PTC_REGDATE" msprop:Generator_UserColumnName="PTC_REGDATE" msprop:Generator_ColumnPropNameInRow="PTC_REGDATE" msprop:Generator_ColumnVarNameInTable="columnPTC_REGDATE" msprop:Generator_ColumnPropNameInTable="PTC_REGDATEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

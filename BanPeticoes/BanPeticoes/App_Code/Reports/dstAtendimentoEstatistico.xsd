@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportsAtendimentoEstatistico" targetNamespace="http://tempuri.org/DSRel.xsd" xmlns:mstns="http://tempuri.org/DSRel.xsd" xmlns="http://tempuri.org/DSRel.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportsAtendimentoEstatistico" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_DataSetName="ReportsAtendimentoEstatistico" msprop:Generator_UserDSName="ReportsAtendimentoEstatistico">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AtendimentoEstatistico" msprop:Generator_TableClassName="AtendimentoEstatisticoDataTable" msprop:Generator_RowEvArgName="AtendimentoEstatisticoRowChangeEvent" msprop:Generator_TableVarName="tableAtendimentoEstatistico" msprop:Generator_TablePropName="AtendimentoEstatistico" msprop:Generator_RowDeletingName="AtendimentoEstatisticoRowDeleting" msprop:Generator_UserTableName="AtendimentoEstatistico" msprop:Generator_RowChangingName="AtendimentoEstatisticoRowChanging" msprop:Generator_RowDeletedName="AtendimentoEstatisticoRowDeleted" msprop:Generator_RowChangedName="AtendimentoEstatisticoRowChanged" msprop:Generator_RowEvHandlerName="AtendimentoEstatisticoRowChangeEventHandler" msprop:Generator_RowClassName="AtendimentoEstatisticoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AGAT_DATAAGENDADA" msprop:Generator_ColumnVarNameInTable="columnAGAT_DATAAGENDADA" msprop:Generator_ColumnPropNameInRow="AGAT_DATAAGENDADA" msprop:Generator_ColumnPropNameInTable="AGAT_DATAAGENDADAColumn" msprop:Generator_UserColumnName="AGAT_DATAAGENDADA" type="xs:date" minOccurs="0" />
+              <xs:element name="AGAT_REGDATE" msprop:Generator_ColumnVarNameInTable="columnAGAT_REGDATE" msprop:Generator_ColumnPropNameInRow="AGAT_REGDATE" msprop:Generator_ColumnPropNameInTable="AGAT_REGDATEColumn" msprop:Generator_UserColumnName="AGAT_REGDATE" type="xs:date" minOccurs="0" />
+              <xs:element name="NUC_DESCRICAO" msprop:Generator_ColumnVarNameInTable="columnNUC_DESCRICAO" msprop:Generator_ColumnPropNameInRow="NUC_DESCRICAO" msprop:Generator_ColumnPropNameInTable="NUC_DESCRICAOColumn" msprop:Generator_UserColumnName="NUC_DESCRICAO" type="xs:string" minOccurs="0" />
+              <xs:element name="PES_NOME" msprop:Generator_ColumnVarNameInTable="columnPES_NOME" msprop:Generator_ColumnPropNameInRow="PES_NOME" msprop:Generator_ColumnPropNameInTable="PES_NOMEColumn" msprop:Generator_UserColumnName="PES_NOME" type="xs:string" minOccurs="0" />
+              <xs:element name="ARATUA_DESCRICAO" msprop:Generator_ColumnVarNameInTable="columnARATUA_DESCRICAO" msprop:Generator_ColumnPropNameInRow="ARATUA_DESCRICAO" msprop:Generator_ColumnPropNameInTable="ARATUA_DESCRICAOColumn" msprop:Generator_UserColumnName="ARATUA_DESCRICAO" type="xs:string" minOccurs="0" />
+              <xs:element name="AGAT_REGUSER" msprop:Generator_ColumnVarNameInTable="columnAGAT_REGUSER" msprop:Generator_ColumnPropNameInRow="AGAT_REGUSER" msprop:Generator_ColumnPropNameInTable="AGAT_REGUSERColumn" msprop:Generator_UserColumnName="AGAT_REGUSER" type="xs:string" minOccurs="0" />
+              <xs:element name="AGAT_OBSERVACAO" msprop:Generator_ColumnVarNameInTable="columnAGAT_OBSERVACAO" msprop:Generator_ColumnPropNameInRow="AGAT_OBSERVACAO" msprop:Generator_ColumnPropNameInTable="AGAT_OBSERVACAOColumn" msprop:Generator_UserColumnName="AGAT_OBSERVACAO" type="xs:string" minOccurs="0" />
+              <xs:element name="AGAT_STATUS" msprop:Generator_ColumnVarNameInTable="columnAGAT_STATUS" msprop:Generator_ColumnPropNameInRow="AGAT_STATUS" msprop:Generator_ColumnPropNameInTable="AGAT_STATUSColumn" msprop:Generator_UserColumnName="AGAT_STATUS" type="xs:string" minOccurs="0" />
+              <xs:element name="TOTAL" msprop:Generator_ColumnVarNameInTable="columnTOTAL" msprop:Generator_ColumnPropNameInRow="TOTAL" msprop:Generator_ColumnPropNameInTable="TOTALColumn" msprop:Generator_UserColumnName="TOTAL" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
